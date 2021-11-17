@@ -1,0 +1,103 @@
+.price{
+    margin-bottom: 40px;
+    padding-top: 40px;
+    h1{
+        color: #058BCE;
+    }
+        .base{
+            margin-bottom: 40px;
+            &:hover{
+                box-shadow: 0px 0px 18px #ddd;
+            }
+        .lon{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            h3{
+                font-size: 40px;
+                font-weight: 300;
+            }
+            h2{
+                font-size: 40px;
+                font-size: 40;
+            }
+            background-color: #058BCE;
+            color: #fff;
+            
+        }
+        ul{
+            li:first-of-type{
+                background-color: #f7f7f7;
+
+            }
+            li:nth-of-type(2)
+            {
+                background-color: #e6e6e6;
+            }
+            li:nth-of-type(3)
+            {
+                background-color: #f7f7f7;
+            }
+            li:nth-of-type(4)
+            {
+                background-color: #e6e6e6;
+            }
+            li:nth-of-type(5)
+            {
+                background-color:  #f7f7f7;
+            }
+            li:nth-of-type(6)
+            {
+                background-color:  #f7f7f7;
+                padding: 40px;
+                a{
+                    width: 50px;
+                    height: 30px;
+                    text-align: center;
+                    background-color: #058BCE;
+                    color: #fff;
+                    padding: 15px 20px;
+                    &:hover
+                    {
+                        background-color: #48AAF1;
+                    }
+                }
+               
+            }
+            li{
+                padding: 7px;
+            }
+            
+        }
+    }
+}
+.comm{
+    min-height: 200px;
+    background-color: #ebebeb;
+    .carousel-indicators,.carousel-control-prev,.carousel-control-next{
+        display: none;
+    }
+
+    .fr2,.sec1{
+        @media(min-width:992px)
+        {
+            padding-bottom: 180px;
+        }
+        
+        padding-bottom: 400px;
+
+    }
+    .ux{
+        li{
+            display: inline-block;
+        }
+    }
+    @media (min-width: 992px)
+    {
+
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 11.6666666667%;
+        margin: 5px;
+    }
+}
+}

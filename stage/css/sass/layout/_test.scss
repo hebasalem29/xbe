@@ -1,0 +1,56 @@
+.test{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        margin-bottom: 20px;
+    }
+    .p4{
+        font-size: 20px;
+    }
+    
+    .carousel-indicators,.carousel-control-prev,.carousel-control-next
+    {
+        display: none;
+    }
+    background-color: #266dd1;
+    color: #fff;
+    @media (min-width: 750px)
+    {
+.col-lg-6,.col-md-6 {
+    flex: 0 0 auto;
+    width: 47%;
+    margin: 10px;
+}
+    }
+    .box3{
+        
+        padding:20px ;
+        margin-bottom: 40px;
+        
+        .fe{
+            display: flex;
+            @media(max-width:750px)
+            {
+                display: block;
+            }
+            img{
+                border-radius: 50%;
+                width: 120px;
+               
+                 vertical-align: middle;
+                
+                
+            }
+            p{
+                text-align: left;
+            }
+        }
+        p{
+            float: right;
+        }
+        background-color: #fff;
+        color: #868686;
+
+    }
+   
+}

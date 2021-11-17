@@ -1,0 +1,89 @@
+.header{
+    .carousel-indicators{
+        padding-bottom: 50px;
+    }
+    &:hover .carousel-control-prev {
+         left: 0px;
+    }
+    &:hover .carousel-control-next {
+        right: 0px;
+    }
+    .carousel-control-prev{
+       left:-150px;
+       
+    }
+    .carousel-control-next{
+        right: -150px;
+    }
+    .fr{
+        position: relative;
+        
+        background-image: url('../img/backgrounds/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 600px;
+        background-position: center;
+        position: relative;
+    }
+    .sec{
+        background-image: url('../img/backgrounds/header-bg-two.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 600px;
+       background-position: center;
+        position: relative;
+    }
+    .overlay{
+        background-color: rgba(0,0,0,.3);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+    }
+    .carousel-indicators
+    {
+        
+        button{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 1px solid #000;
+            background-color: transparent;
+           
+           
+        }
+        .active{
+            background-color: #000 !important;
+        }
+      
+    }
+    .xx{
+        h1{
+            font-size: 50px;
+        }
+        .p1{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .p2{
+            font-size: 18px;
+             
+        }
+       margin-top: -350px !important;
+        .aa{
+            margin-top: 20px;
+            
+            color: #fff;
+            border: 2px solid #fff;
+            background-color: transparent;
+            padding: 10px 30px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            &:hover{
+                border: 2px solid #058BCE;
+            }
+        }
+    }
+}

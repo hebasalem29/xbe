@@ -1,0 +1,140 @@
+.nav{
+    
+    .disb{
+        display: none;
+    }
+    
+    .main1{
+    
+    
+        @media(min-width:991px)
+
+        {
+            
+            
+                display: none ;
+            
+        }
+        
+        background-color: #222;
+        margin-top: 50px;
+        text-align: left;
+        position: fixed;
+        margin-left: -160px;
+        width: 100%;
+        border-top: 2px solid #fff;
+        li{
+            margin: 15px;
+            a{
+                color: #fff;
+                &:hover{
+                    color: #058BCE;
+                    cursor: pointer;
+                }
+            }
+        }
+       
+    }
+
+   
+
+    @media(max-width:991px)
+    {
+        
+            background-color: #000;
+    
+    }
+    position: fixed;
+    top:0px;
+    z-index: 9999;
+    
+    padding: 10px;
+    width: 100%;
+    
+      
+    background-color: transparent;
+    color: #fff;
+    .logo{
+        
+         
+
+
+    }
+    .menu{
+        float: right; 
+        position: absolute;
+        right: 5px;
+        @media(max-width:991px)
+
+        {
+            ul{
+                display: none;
+            }
+        }
+    
+        
+        
+
+ul{
+    
+    float: right;  
+li{
+    position: relative;
+    margin: 10px;
+    color: #fff;
+   
+    display: inline-block;
+    color: #fff;
+    a{
+        color: #fff;
+        &:hover{
+            color: #058BCE;
+            cursor: pointer;
+        }
+    }
+   
+   /* &:before{
+        content: '';
+        position: absolute;
+        bottom:0 ;
+        left: 0;
+        width: 100%;
+        border: 1px solid #058BCE;
+            }*/
+   
+}
+    }
+}
+
+.men{
+    position: absolute;
+    right: 15px;
+    top:5px;display: none;
+    
+    @media(max-width:991px)
+    {
+        
+            display: block !important;
+            background-color: #058BCE;
+            padding: 10px;
+            border-radius: 4px;
+    
+    }
+}
+
+}
+.act{
+    &:before{
+position: absolute;
+bottom:0 ;
+left: 0;
+width: 100%;
+content: '';
+border: 1px solid #058BCE;
+    }
+   
+  
+}
+.act1{
+    border-bottom: 3px solid #058BCE;
+}

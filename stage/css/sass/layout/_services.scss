@@ -1,0 +1,37 @@
+.serv{
+    padding-bottom: 50px;
+    background: url('../img/backgrounds/services-bg.jpg');
+    color: #fff;
+    padding-top: 50px;
+    .all{
+        padding-top: 80px;
+        .box{
+            .box1{
+                margin: 0 auto;
+                 
+                i{
+                    text-align: center;
+                    padding: 30px;
+                     
+                }
+              
+                text-align: center;
+                //padding: 30px ;
+                background-color: #058BCE;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+            }
+            h4{
+                padding-top: 30px;
+                font-size: 20px;
+                font-weight: 300;
+            }
+            p{
+                font-size: 13px;
+                 
+                font-weight: 400;
+            }
+        }
+    }
+}
